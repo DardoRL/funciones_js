@@ -28,6 +28,14 @@ para que luego el sistema use esa variable "invidatos" para imprimir
 en consola la lista
 
 */
+let invitados;
+function generarInvitados(){
+    let invitado1 = prompt('Ingrese el nombre del primer invitado:');
+    let invitado2 = prompt('Ingrese el nombre del segundo invitado:');
+    let invitado3 = prompt('Ingrese el nombre del tercer invitado:');
+    let invitados = invitado1 + " " + invitado2 + " " + invitado3;
+    return invitados;
+    }
 
 // Definir y crear la función antes de esta llamada
 invitados = generarInvitados();
