@@ -37,6 +37,9 @@ function generarInvitados(){
         invitado3 = prompt('Ingrese el nombre del tercer invitado:');
         invitados = `${invitado1}, ${invitado2} y ${invitado3}`;
     }  
+    else if (cantInvitados>3){
+        console.log("El sistema no acepta mas de 3 invitados"); 
+    }
     return invitados;
     }
 
